@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+
+
+<!-- Header Menu Start -->
+<div class="header-menu">
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle lines-button x" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="lines"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo-small.png" alt="logo"><img src="images/logo.png" alt="logo"></a>
+            </div>
+            <div class="navigation collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Bookings</a></li>
+                    <li><a href="#">Menu item 2</a></li>
+                    <li><a href="#">MContact</a></li>
+                    <li>
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- Header Menu End -->
+
+
+
+<!-- Header Content Start -->
+<div class="header-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="home">
+                    <h1>MANDURAH'S HOME OF MUSIC</h1>
+                    <img src="images/Vector-Smart-Object1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header Content End -->
+
+
+
+
+<!-- Content Top Start -->
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="shows">
+                    <div class="bookings">
+                        <p class="bookings-first-text">
+                            look at the stars,Look how they shine for you,And everything you do,
+                            Yeah, they were all yellow. I came along, I wrote a song for you And all
+                            the things you do, And it was called "Yellow". So then I took my turn,Oh
+                            what a thing to have done, And it was all yellow.
+                        </p>
+                        <p class="bookings-second-text">
+                            your skin, Oh yeah your skin and bones, Turn into something beautiful,<br>
+                            Do you know,You know I love you so, You know I love you so. I swam across, <br>
+                            I jumped to cross for you, Oh what a thing to do.'Cause you were all yellow.
+                        </p>
+                        <p class="bookings-thired-text">
+                            I drew a line,I drew a line for you,Oh what a thing to do,And it was all
+                            yellow.Oh yeah your skin and bones,
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+                <!--CONTENT HERE-->
+        </div>
+    </div>
+</div>
+<!-- Content Top End -->
+
+
+
+<!-- Content Bottom Start -->
+<div class="content-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="input">
+                    <img src="images/gic.png">
+                    <h2>BOOKINGS</h2>
+                    <p><span class="download-pdf">Download our venue booking INFORMATION PDF </span><a href="" class="pdf-link">here</a></p>
+                    <p class="booking-equiries"><span class="equiries-to">ALL BOOKING ENQUIRIES to </span><span>bookings@rollercoastermandurah.com</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Content Bottom End -->
+
+
+
+<!-- Footer Start -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+                <div class="link">
+                    <h3>CONTACT</h3>
+                    <a href="#">6/25-27 MANDURAH TERRACE</a>
+                    <a href="#">BOOKINGS ROLLERCOASTERMANDURAH.COM</a>
+                    <a href="#">HELLO ROLLERCOASTERMANDURAH.COM</a>
+                </div>
+                <div class="cent">
+                    <img src="images/green10.png">
+                </div>
+               <div class="icons">
+                   <div class="icon">
+                       <i class="fa fa-facebook" aria-hidden="true"></i>
+                       <p>FACEBOOK</p>
+                   </div>
+                   <div class="icon">
+                       <i class="fa fa-instagram" aria-hidden="true"></i>
+                       <p>INSTA</p>
+                   </div>
+               </div>
+        </div>
+    </div>
+</div>
+<div class="color"></div>
+<!-- Footer End -->
+
+<!-- Js -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    /**
+     * Mobile Menu Button Effect
+     */
+    var anchor = document.querySelectorAll('.navbar-toggle');
+
+    [].forEach.call(anchor, function(anchor){
+        var open = false;
+        anchor.onclick = function(event){
+            event.preventDefault();
+            if(!open){
+                this.classList.add('close');
+                open = true;
+            }
+            else{
+                this.classList.remove('close');
+                open = false;
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
